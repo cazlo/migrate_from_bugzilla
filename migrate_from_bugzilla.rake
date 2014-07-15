@@ -53,7 +53,7 @@ namespace :redmine do
       STATUS_MAPPING = {
         "UNCONFIRMED" => DEFAULT_STATUS,
         "NEW" => DEFAULT_STATUS,
-        "VERIFIED" => feedback_status,
+        "VERIFIED" => DEFAULT_STATUS,
         "ASSIGNED" => assigned_status,
         "REOPENED" => assigned_status,
         "RESOLVED" => resolved_status,
